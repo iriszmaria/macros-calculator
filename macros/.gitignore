@@ -36,3 +36,21 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+.env
+.env.*
+!.env.example
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven build output
+target/
+build/
+out/
+*.class
+*.jar
+*.log
